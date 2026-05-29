@@ -42,6 +42,7 @@ account for elliptical distortion of primary, secondary
 include diffraction spikes from LOLO-diffuser struts. They should be aligned with the mirror struts in a reference position, but are visible for an offset source
 '''
 
+
 i=complex(0,1)
 pi=np.pi
 arcsectorad=pi/180/60/60
@@ -54,47 +55,47 @@ defaulttruebars['4']={}
 defaulttruebars['5']={}
 defaulttruebars['6']={}
 
-defaulttruebars['1']['theta0']=1.26321156e+00
-defaulttruebars['1']['thetax1']=-1.33813468e+00
-defaulttruebars['1']['thetay1']=-1.78752296e+00
-defaulttruebars['1']['thetax2']=-1.95988066e+02
-defaulttruebars['1']['thetay2']=1.32420061e+02
-defaulttruebars['1']['thetaxy']=-1.21648756e+02
+defaulttruebars['1']['theta0']=1.25971588e+00
+defaulttruebars['1']['thetax1']=-3.47664426e+00
+defaulttruebars['1']['thetay1']=-3.22432189e+00
+defaulttruebars['1']['thetax2']=-2.86434405e+02
+defaulttruebars['1']['thetay2']=3.13288770e+02
+defaulttruebars['1']['thetaxy']=-1.61687473e+02
 
-defaulttruebars['2']['theta0']=2.90956877e+00
-defaulttruebars['2']['thetax1']=1.42334965e+00
-defaulttruebars['2']['thetay1']4.73671855e+00
-defaulttruebars['2']['thetax2']=1.26269313e+02
-defaulttruebars['2']['thetay2']=-1.26721123e+02
-defaulttruebars['2']['thetaxy']=7.28451245e+01
+defaulttruebars['2']['theta0']=2.91163892e+00
+defaulttruebars['2']['thetax1']=3.30347730e+00
+defaulttruebars['2']['thetay1']=6.21256328e+00
+defaulttruebars['2']['thetax2']=2.45334483e+02
+defaulttruebars['2']['thetay2']=-2.66565225e+0
+defaulttruebars['2']['thetaxy']=1.38851363e+02
 
-defaulttruebars['3']['theta0']=2.31524411e+00
-defaulttruebars['3']['thetax1']=-2.59609541e+00
-defaulttruebars['3']['thetay1']=1.15389898e-01
-defaulttruebars['3']['thetax2']=1.78182896e+02
-defaulttruebars['3']['thetay2']=1.31457694e+02
-defaulttruebars['3']['thetaxy']=1.44438833e+02
+defaulttruebars['3']['theta0']=2.32505304e+00
+defaulttruebars['3']['thetax1']=-2.65408765e-02
+defaulttruebars['3']['thetay1']=-1.21373211e+00
+defaulttruebars['3']['thetax2']=8.84447477e+01
+defaulttruebars['3']['thetay2']=3.51039495e+01
+defaulttruebars['3']['thetaxy']=6.76308874e+01
 
-defaulttruebars['4']['theta0']=8.31332570e-01
-defaulttruebars['4']['thetax1']=1.40658521e+00
-defaulttruebars['4']['thetay1']-1.22379163e+00
-defaulttruebars['4']['thetax2']=-3.29482919e+01
-defaulttruebars['4']['thetay2']=-2.20938807e+02
-defaulttruebars['4']['thetaxy']=-5.30852335e+01
+defaulttruebars['4']['theta0']=8.21877192e-01
+defaulttruebars['4']['thetax1']=-1.24926163e+00
+defaulttruebars['4']['thetay1']=-2.89823915e-01
+defaulttruebars['4']['thetax2']=1.62371885e+01
+defaulttruebars['4']['thetay2']=-9.04770843e+01
+defaulttruebars['4']['thetaxy']=-5.48434331e-01
 
-defaulttruebars['5']['theta0']=2.20435522e-01
-defaulttruebars['5']['thetax1']=2.70536433e+00
-defaulttruebars['5']['thetay1']=3.89843943e+00
-defaulttruebars['5']['thetax2']=1.62554514e+02
-defaulttruebars['5']['thetay2']=-1.03490979e+02
-defaulttruebars['5']['thetaxy']=1.01776819e+02
+defaulttruebars['5']['theta0']=2.13975696e-01
+defaulttruebars['5']['thetax1']=2.35089534e+00
+defaulttruebars['5']['thetay1']=6.49051207e+00
+defaulttruebars['5']['thetax2']=3.11491054e+02
+defaulttruebars['5']['thetay2']=-1.78068099e+02
+defaulttruebars['5']['thetaxy']=1.97766241e+02
 
-defaulttruebars['6']['theta0']=1.89001822e+00
-defaulttruebars['6']['thetax1']=-1.00974915e-01
-defaulttruebars['6']['thetay1']=-2.59070366e+00
-defaulttruebars['6']['thetax2']=-1.59612554e+02
-defaulttruebars['6']['thetay2']=1.33837863e+02
-defaulttruebars['6']['thetaxy']=-9.56383102e+01
+defaulttruebars['6']['theta0']=1.89786968e+00
+defaulttruebars['6']['thetax1']=6.34653878e-01
+defaulttruebars['6']['thetay1']=-5.17084440e+00
+defaulttruebars['6']['thetax2']=-3.48991711e+02
+defaulttruebars['6']['thetay2']=1.80665508e+02
+defaulttruebars['6']['thetaxy']=-2.24039326e+02
 
 #center of chip1
 thetax0=1312.9491452484797*arcsectorad
@@ -112,20 +113,20 @@ defaultbarparam['6']={}
 defaultbarparam['zref']=18.813
 
 #width of secondary mirror struts
-defaultbarparam['1']['w']=7.43934760e-02
-defaultbarparam['2']['w']=7.48706892e-02
-defaultbarparam['3']['w']=7.46923847e-02
-defaultbarparam['4']['w']=7.51136392e-02
-defaultbarparam['5']['w']=7.52385870e-02
-defaultbarparam['6']['w']=7.45845916e-02
+defaultbarparam['1']['w']=7.46179521e-02
+defaultbarparam['2']['w']=7.41656285e-02
+defaultbarparam['3']['w']=7.41208867e-02
+defaultbarparam['4']['w']=7.46782500e-02
+defaultbarparam['5']['w']=7.44190186e-02
+defaultbarparam['6']['w']=7.45386249e-02
 
 #length of secondary mirror struts
-defaultbarparam['1']['l']=1.81879241
-defaultbarparam['2']['l']=1.78030693
-defaultbarparam['3']['l']=1.81857799
-defaultbarparam['4']['l']=1.81168471
-defaultbarparam['5']['l']=1.78371425
-defaultbarparam['6']['l']=1.83067248
+defaultbarparam['1']['l']=9.79994893e-01
+defaultbarparam['2']['l']=9.89084836e-01
+defaultbarparam['3']['l']=9.76846302e-01
+defaultbarparam['4']['l']=9.66738093e-01
+defaultbarparam['5']['l']=9.74839045e-01
+defaultbarparam['6']['l']=9.73334491e-01
 
 #centroid of secondary mirror struts
 #just results in a phase offset
@@ -147,8 +148,6 @@ defaultbarparam['5']['y0']=-0.023516249999999933
 defaultbarparam['6']['x0']=-1.6470781499999998
 defaultbarparam['6']['y0']=2.74011345
 
-for i in range(1,7):
-    getbarparamtheta(thetax0,thetay0,defaultbarparam,truebars=defaulttruebars)
 
 #normalized amplitude of diffraction spikes
 #investigation involving JWST PSFs finds that the diffraction spikes
@@ -165,57 +164,6 @@ defaultbarparam['3']['amp']=1
 defaultbarparam['4']['amp']=1
 defaultbarparam['5']['amp']=1
 defaultbarparam['6']['amp']=1
-    
-
-def barpsf(x,y,k,w,l,x0,y0,rotation=0):
-    #calculates the fourier transform pattern of a bar with a given center and rotation
-
-    #rotate x and y to a coordinate system aligned with the bar
-    xrot=x*np.cos(rotation)-y*np.sin(rotation)
-    yrot=x*np.sin(rotation)+y*np.cos(rotation)
-
-    #the resulting Fourier transform is a sinc in x, and y, with phases shifted to the central x and y
-    return np.sinc(k*w*xrot/2/np.pi)*np.sinc(k*l*yrot/2/np.pi)*np.exp(-i*k*x0*x)*np.exp(-i*k*y*y0)*l*w
-
-
-def romanpsf(xoffset,yoffset,wave,barparam=defaultbarparam,x0=0,y0=0,flength=18.813,ainner=.783,aouter=2.553,pixsize=10E-6):
-    #calculates the PSF of Roman's WFI
-
-    #pixscale
-    pixscale=pixsize/flength
-    
-    #convert to radians
-    x=xoffset*arcsectorad/pixscale*pixsize
-    y=yoffset*arcsectorad/pixscale*pixsize
-
-    #theta_perp for disk fourier transform
-    theta=np.sqrt(x**2+y**2)
-    
-    k=2*np.pi/wave/flength
-
-    #fourier transform of disk is J1 bessel function divided by k*a*theta_perp (https://adriftjustoffthecoast.wordpress.com/2013/06/06/2d-fourier-transform-of-the-unit-disk/)
-    mirrorpsfouter=np.array(j1(k*aouter*theta)/(k*aouter*theta),dtype=complex)*2*np.pi*aouter**2
-    mirrorpsfinner=np.array(j1(k*ainner*theta)/(k*ainner*theta),dtype=complex)*2*np.pi*ainner**2
-
-    #subtract inner mirror from the outer
-    final=mirrorpsfouter-mirrorpsfinner
-
-    #subtract the bars
-    bararea=[]
-    for j in range(6):
-        final-=barparam[str(j+1)]['amp']*barpsf(x,y,k,barparam[str(j+1)]['w'],barparam[str(j+1)]['l'],barparam[str(j+1)]['x0'],barparam[str(j+1)]['y0'],rotation=barparam[str(j+1)]['theta'])
-        #keep track of the area of the bars for normalization
-        bararea.append(barparam[str(j+1)]['w']*barparam[str(j+1)]['l'])
-
-    #alow for a phase shift to a given x0 and y0 in case this is passed through more optics
-    #but don't do it by default
-    if not ((x0==0) and (y0==0)):
-        final*=np.exp(-i*k*x0*x)*np.exp(-i*k*y*y0)
-
-    #normalize the final pattern by k/2/pi/sqrt(area)*pixelsize
-    final*=k/2/np.pi/np.sqrt(np.pi*(aouter**2-ainner**2)-np.sum(bararea))*pixsize
-    
-    return final
 
 def getbarparamtheta(thetaxi,thetayi,barparam,truebars=defaulttruebars):
     #get the apparent projected angle of the mirror struts
@@ -224,8 +172,8 @@ def getbarparamtheta(thetaxi,thetayi,barparam,truebars=defaulttruebars):
     #do quadratic x,y polynomial for theta instead of full geometric solution
     #the geometry must be just a bit too complicated
 
-    dx=thetax-thetax0
-    dy=thetay-thetay0
+    dx=thetaxi-thetax0
+    dy=thetayi-thetay0
     for j in range(6):
         bari=str(j+1)
         barparam[bari]['theta']=truebars[bari]['theta0']+truebars[bari]['thetax1']*dx+truebars[bari]['thetay1']*dy+truebars[bari]['thetax2']*dx**2+truebars[bari]['thetay2']*dy**2+truebars[bari]['thetaxy']*dx*dy
@@ -243,3 +191,71 @@ def getbardict(thetax,thetay,truebars=defaulttruebars):
         barparam[bari]['theta']=truebars[bari]['theta0']+truebars[bari]['thetax1']*dx+truebars[bari]['thetay1']*dy+truebars[bari]['thetax2']*dx**2+truebars[bari]['thetay2']*dy**2+truebars[bari]['thetaxy']*dx*dy
 
     return barparam
+
+getbarparamtheta(thetax0,thetay0,defaultbarparam,truebars=defaulttruebars)
+
+
+def barpsf(x,y,k,w,l,x0,y0,rotation=0):
+    #calculates the fourier transform pattern of a bar with a given center and rotation
+
+    #rotate x and y to a coordinate system aligned with the bar
+    xrot=x*np.cos(rotation)-y*np.sin(rotation)
+    yrot=x*np.sin(rotation)+y*np.cos(rotation)
+
+    #the resulting Fourier transform is a sinc in x, and y, with phases shifted to the central x and y
+    return np.sinc(k*w*xrot/2/np.pi)*np.sinc(k*l*yrot/2/np.pi)*np.exp(-i*k*x0*x)*np.exp(-i*k*y*y0)*l*w
+
+
+def romanpsf(xoffset,yoffset,wave,barparam=defaultbarparam,x0=0,y0=0,flength=18.813,ainner=.783/2,aouter=2.553/2,pixsize=10E-6):
+    #calculates the PSF of Roman's WFI
+    
+    #PSF is evaluated with x and y in meters
+    #so convert angular offset to physical offset using the optical path length
+    #none of the individual components need the optical path length, since it cancels out
+    #however, the interference between the bar psfs and the mirror psfs does need it
+    #since the bar psfs are phase-shifted relative to the mirror psfs
+    x=xoffset*arcsectorad*flength
+    y=yoffset*arcsectorad*flength
+
+    #theta_perp for disk fourier transform
+    theta=np.sqrt(x**2+y**2)
+    
+    k=2*np.pi/wave/flength
+
+    #fourier transform of disk is J1 bessel function divided by k*a*theta_perp (https://adriftjustoffthecoast.wordpress.com/2013/06/06/2d-fourier-transform-of-the-unit-disk/)
+    mirrorpsfouter=np.array(j1(k*aouter*theta)/(k*aouter*theta),dtype=complex)*2*np.pi*aouter**2
+    mirrorpsfinner=np.array(j1(k*ainner*theta)/(k*ainner*theta),dtype=complex)*2*np.pi*ainner**2
+
+    if type(theta)==np.ndarray:
+        mirrorpsfouter[theta==0]=np.pi*aouter**2
+        mirrorpsfinner[theta==0]=np.pi*ainner**2
+    else:
+        if theta==0:
+            mirrorpsfouter=np.pi*aouter**2+0*i
+            mirrorpsfinner=np.pi*ainner**2+0*i
+    #subtract inner mirror from the outer
+    final=mirrorpsfouter-mirrorpsfinner
+
+    barpsfs=np.zeros_like(final)
+    #subtract the bars
+    bararea=[]
+    for j in range(6):
+        barpsfj=barparam[str(j+1)]['amp']*barpsf(x,y,k,barparam[str(j+1)]['w'],barparam[str(j+1)]['l'],barparam[str(j+1)]['x0'],barparam[str(j+1)]['y0'],rotation=barparam[str(j+1)]['theta'])
+        barpsfs+=barpsfj
+        #final-=barparam[str(j+1)]['amp']*barpsf(x,y,k,barparam[str(j+1)]['w'],barparam[str(j+1)]['l'],barparam[str(j+1)]['x0'],barparam[str(j+1)]['y0'],rotation=barparam[str(j+1)]['theta'])
+        #keep track of the area of the bars for normalization
+        bararea.append(barparam[str(j+1)]['w']*barparam[str(j+1)]['l'])
+        
+    final-=barpsfs
+    #alow for a phase shift to a given x0 and y0 in case this is passed through more optics
+    #but don't do it by default
+    if not ((x0==0) and (y0==0)):
+        final*=np.exp(-i*k*x0*x)*np.exp(-i*k*y*y0)
+
+    #normalize the final pattern by k/2/pi/sqrt(area)*pixelsize
+    pixscale=pixsize/flength/arcsectorad
+    final*=k/2/np.pi/np.sqrt(np.pi*(aouter**2-ainner**2)-np.sum(bararea))*pixsize/pixscale
+    
+    return final
+
+
