@@ -1,7 +1,6 @@
 import numpy as np
 import os
 from scipy.special import j1
-import getbarparam
 import copy
 '''
 This module calculates the surface brightness of the Roman WFI PSF at a given angular offset from 
